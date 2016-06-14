@@ -88,22 +88,21 @@ public class Main {
         if (path.equals("definitions/levelset.txt")) {
             // Interpreting the file given.
             sffList = lr.readLevels(fr);
-        }
-        // In case the file is not given.
-        else {
+            // In case the file is not given.
+        } else {
             levelInformationList = new LevelSpecificationReader().fromReader(fr);
         }
 
         final AnimationRunner animationRunner = new AnimationRunner(60, gui);
-        // Tasks for the 's' option.
+        // asks for the 's' option.
         MenuAnimation<Task<Void>> subMenu =
                 new MenuAnimation<Task<Void>>(gui.getKeyboardSensor(), "Levels", animationRunner);
-        for (int i = 0; i < sffList.size(); i++) {
+        for (SetFileFormat aSffList : sffList) {
             subMenu.addSelection(
-                    sffList.get(i).getKey(),
-                    sffList.get(i).getName(),
+                    aSffList.getKey(),
+                    aSffList.getName(),
                     new TaskGame<Void>(finalScores, animationRunner, gui
-                            .getKeyboardSensor(), this.file, sffList.get(i)
+                            .getKeyboardSensor(), this.file, aSffList
                             .getLevelList()), null);
         }
 
