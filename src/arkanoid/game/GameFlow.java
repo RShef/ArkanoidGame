@@ -4,8 +4,6 @@ import arkanoid.animation.AnimationRunner;
 import arkanoid.animation.EndScreen;
 import arkanoid.animation.HighScoresAnimation;
 import arkanoid.animation.KeyPressStoppableAnimation;
-import arkanoid.animation.Menu;
-import arkanoid.animation.MenuAnimation;
 import arkanoid.levels.LevelInformation;
 import biuoop.DialogManager;
 import biuoop.GUI;
