@@ -20,7 +20,7 @@ public class Ass6Game {
      */
     public static void main(String[] args) {
         // The default.
-        String input = "definitions/level_definitions.txt";
+        String input = "definitions/level_sets.txt";
         File highscores = new File("highscores.ser");
         // If there given a run time argument.
         if (args.length > 0) {

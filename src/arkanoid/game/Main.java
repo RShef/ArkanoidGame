@@ -88,9 +88,7 @@ public class Main {
         if (path.equals("definitions/levelset.txt")) {
             // Interpreting the file given.
             sffList = lr.readLevels(fr);
-        }
-        // In case the file is not given.
-        else {
+        } else { // In case the file is not given.
             levelInformationList = new LevelSpecificationReader().fromReader(fr);
         }
 
