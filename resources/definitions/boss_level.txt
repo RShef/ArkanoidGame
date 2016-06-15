@@ -1,0 +1,72 @@
+
+# Level 1
+
+START_LEVEL
+level_name:Welcome BOSS LEVEL!
+ball_velocities:45,550 -45,550
+background:image(background_images/nyan.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/nyn_blocks.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:39
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+-zzzzzzzzzzzzz--
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+
+START_LEVEL
+level_name:Frozen
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/frozen_olaf_snowman.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/frozen_blocks.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:135
+START_BLOCKS
+-
+-
+gggggggggggggggg
+---ggggggggggg
+-----ggggggg
+-------ggg
+--------g
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+
+START_LEVEL
+level_name:Cookie
+ball_velocities:45,550
+background:image(background_images/monsters_mouth.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/cokie_blocks.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:105
+START_BLOCKS
+-
+-
+-
+-
+-
+z-z-z-z-z-z-z-z
+END_BLOCKS
+END_LEVEL

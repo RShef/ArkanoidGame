@@ -1,0 +1,8 @@
+# default values for blocks
+default height:25 width:50
+
+# block definitions
+bdef symbol:g hit_points:1 fill:image(block_images/snow.jpg)
+
+# spacers definitions
+sdef symbol:- width:50

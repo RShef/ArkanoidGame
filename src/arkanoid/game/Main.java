@@ -85,7 +85,7 @@ public class Main {
             e.printStackTrace();
         }
         // If the file is  given.
-        if (path.equals("definitions/levelset.txt")) {
+        if (path.equals("definitions/level_sets.txt")) {
             // Interpreting the file given.
             sffList = lr.readLevels(fr);
         } else { // In case the file is not given.
@@ -107,7 +107,7 @@ public class Main {
 
         MenuAnimation<Task<Void>> menu = new MenuAnimation<Task<Void>>(gui.getKeyboardSensor(), "Arkanoid",
                 animationRunner);
-        if (!this.levelPath.equals("definitions/levelset.txt")) {
+        if (!this.levelPath.equals("definitions/level_sets.txt")) {
             subMenu = null;
         }
         // Task if the 'h' option.

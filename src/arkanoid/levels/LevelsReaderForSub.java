@@ -30,7 +30,6 @@ public class LevelsReaderForSub {
         int count = 1;
         try {
             tempLine = br.readLine();
-            System.out.println(tempLine);
             SetFileFormat sff = null;
             while (tempLine != null) {
                 if (count % 2 == 1) {
