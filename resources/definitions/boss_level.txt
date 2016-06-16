@@ -3,7 +3,7 @@
 
 START_LEVEL
 level_name:Welcome BOSS LEVEL!
-ball_velocities:45,550 -45,550
+ball_velocities:45,550 -45,550 45,550 46,550 47,550 45,550 46,550 47,550
 background:image(background_images/nyan.jpg)
 paddle_speed:650
 paddle_width:160
@@ -28,7 +28,7 @@ END_LEVEL
 
 START_LEVEL
 level_name:Frozen
-ball_velocities:45,550 46,550 47,550
+ball_velocities:45,550 46,550 47,550 45,550 46,550 47,550 45,550 46,550 47,550
 background:image(background_images/frozen_olaf_snowman.jpg)
 paddle_speed:650
 paddle_width:250
@@ -52,7 +52,7 @@ END_LEVEL
 
 START_LEVEL
 level_name:Cookie
-ball_velocities:45,550
+ball_velocities:45,550 45,550 46,550 47,550 45,550 46,550 47,550
 background:image(background_images/monsters_mouth.jpg)
 paddle_speed:650
 paddle_width:160
