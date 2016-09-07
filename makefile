@@ -1,4 +1,3 @@
-# 204845929 302443403
 # shefiro thalleo
 
 compile: bin
